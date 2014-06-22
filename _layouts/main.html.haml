@@ -1,0 +1,10 @@
+%html
+    %head
+        %meta{ charset:"UTF-8" }
+        %title #{page.title} - #{site.title}
+
+        %link{ rel:"stylesheet", href:"http://fonts.googleapis.com/css?family=Open+Sans", type:"text/css" }
+        %link{ rel:"stylesheet", href:"#{site.base_url}/style/style.css", type:"text/css" }
+    %body
+        %div#content
+            ~content

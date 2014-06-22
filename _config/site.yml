@@ -1,0 +1,6 @@
+name: minecrafteula.com
+title: Minecraft EULA
+
+profiles:
+    production:
+        base_url: "http://minecrafteula.com"
